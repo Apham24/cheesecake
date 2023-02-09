@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"/> 
+  </script>
+ 
+  </head>
+  <form id="">
+    <link rel="stylesheet" href="\stylesheets\stylesheet.css" >
+    <h1>
+        Cheesecake Order Form
+    </h1>
+        <img src=https://thumbs.dreamstime.com/b/creamy-mascarpone-cheese-cake-strawberry-winter-berries-new-york-cheesecake-close-up-christmas-dessert-healthy-78995578.jpg>
+        <p>Quantity Topping</p>
+        <table>
+            <td>
+        <select name="quantity" id="Quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          </td>
+          <td>
+            <input type="radio" id="plain" name="flav_selection" value="plain">
+  <label for="plain">plain</label><br>
+  <input type="radio" id="cherry" name="flav_selection" value="cherry">
+  <label for="cherry">cherry</label><br>
+  <input type="radio" id="chocolate" name="flav_selection" value="chocolate">
+  <label for="chocolate">chocolate</label>
+  </td>
+  
+</table>
+  <p>Notes:</p>
+    <textarea name="special instructions" rows="10" cols="100"id = "myText">
+    Enter any special instructions here.
+    </textarea>
+    <br></br>
+    <button type="order" >Order</button>
+  </form>
+  <p id="thanks">Thank you for your order! 
+
+  </p>
+  <script src="/javascripts/submit.js"></script>
+<h1>Total Orders <select placeholder="MM" multiple="">
+  <option name="" value="" style="display:none;">MM</option>
+  <option name="January" value="Jan">January</option>
+  <option name="February" value="Feb">February</option>
+  <option name="March" value="Mar">March</option>
+  <option name="April" value="Apr">April</option>
+	<option name="May" value="May">May</option>
+  <option name="June" value="Jun">June</option>
+  <option name="July" value="Jul">July</option>
+  <option name="August" value="Aug">August</option>
+	<option name="September" value="Sep">September</option>
+  <option name="October" value="Oct">October</option>
+  <option name="November" value="Nov">November</option>
+  <option name="December" value="Dec">December</option>
+</select>
+</h1>
+<ul>
+    <li>11 cherry</li>
+    <li>17 chocolate</li>
+    <li>31 plain</li>
+     </script>
+</html>
